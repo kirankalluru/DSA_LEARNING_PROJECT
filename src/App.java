@@ -1,7 +1,7 @@
-import arrayclasses.Arrayintro;
+import stringclasses.Anagram;
 public class App {
     public static void main(String[] args) throws Exception {
-        Arrayintro a = new Arrayintro();
-        a.arrayprint();
+        Anagram a = new Anagram();
+        a.checkAnagram();
     }
 }
