@@ -32,7 +32,6 @@ public class Cyclicsort {
         }
 
         System.out.println(Arrays.toString(arr));
-        
         sc.close();
     }
 
