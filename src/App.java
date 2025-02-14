@@ -1,8 +1,9 @@
-import arrayclasses.MaxLengthOfConsecutive1;
+
+import stringclasses.MinimumStepsToChangeFromA_B;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        MaxLengthOfConsecutive1 obj = new MaxLengthOfConsecutive1();
-        obj.maxLengthOfConsecutiveones();
+        MinimumStepsToChangeFromA_B m = new MinimumStepsToChangeFromA_B();
+       m.main(args);
     }
 }
