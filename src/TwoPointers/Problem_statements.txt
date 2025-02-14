@@ -1,0 +1,142 @@
+Here’s a well-structured list of **30 Two Pointers technique problems** categorized into **Easy, Medium, and Hard**, each with a **description and sample test cases**.  
+
+---
+
+## 🟢 **Easy (Basic Application of Two Pointers)**
+1. **Pair Sum in Sorted Array**  
+   - Given a sorted array, find if there exists a pair with a given sum.  
+   - **Input:** `[1, 2, 3, 4, 6], target = 5`  
+   - **Output:** `True (1+4 or 2+3)`  
+
+2. **Remove Duplicates from Sorted Array**  
+   - Modify the array in-place to remove duplicates.  
+   - **Input:** `[1,1,2,2,3,3,4]`  
+   - **Output:** `[1,2,3,4]`  
+
+3. **Move Zeros to End**  
+   - Move all zeros to the end while maintaining order of non-zero elements.  
+   - **Input:** `[0,1,0,3,12]`  
+   - **Output:** `[1,3,12,0,0]`  
+
+4. **Valid Palindrome**  
+   - Check if a string is a palindrome, considering only alphanumeric characters.  
+   - **Input:** `"A man, a plan, a canal: Panama"`  
+   - **Output:** `True`  
+
+5. **Squares of a Sorted Array**  
+   - Return an array of squares of each number sorted in non-decreasing order.  
+   - **Input:** `[-4, -1, 0, 3, 10]`  
+   - **Output:** `[0, 1, 9, 16, 100]`  
+
+6. **Merge Two Sorted Arrays (Without Extra Space)**  
+   - Merge two sorted arrays without using extra space.  
+   - **Input:** `arr1 = [1, 3, 5], arr2 = [2, 4, 6]`  
+   - **Output:** `[1,2,3,4,5,6]`  
+
+7. **Reverse a String In-Place**  
+   - Reverse a given string using two pointers.  
+   - **Input:** `['h', 'e', 'l', 'l', 'o']`  
+   - **Output:** `['o', 'l', 'l', 'e', 'h']`  
+
+8. **Find Intersection of Two Sorted Arrays**  
+   - Return common elements of two sorted arrays.  
+   - **Input:** `[1,2,2,3,4]`, `[2,2,4,6]`  
+   - **Output:** `[2,2,4]`  
+
+9. **Check if Array is Sorted and Rotated**  
+   - Check if an array is sorted but rotated.  
+   - **Input:** `[3,4,5,1,2]`  
+   - **Output:** `True`  
+
+10. **Container With Most Water** *(Simplified Case)*  
+    - Find the maximum water that can be stored using two heights.  
+    - **Input:** `[1,8,6,2,5,4,8,3,7]`  
+    - **Output:** `49`  
+
+---
+
+## 🟠 **Medium (Advanced Two Pointers)**
+11. **Three Sum**  
+    - Find unique triplets that sum to zero.  
+    - **Input:** `[-1, 0, 1, 2, -1, -4]`  
+    - **Output:** `[[-1, -1, 2], [-1, 0, 1]]`  
+
+12. **Trapping Rain Water**  
+    - Find the amount of water trapped between heights.  
+    - **Input:** `[0,1,0,2,1,0,1,3,2,1,2,1]`  
+    - **Output:** `6`  
+
+13. **Partition Array Into Two Parts with Equal Sum**  
+    - Find if an array can be partitioned into two equal sum subarrays.  
+    - **Input:** `[1,2,3,5]`  
+    - **Output:** `False`  
+
+14. **Subarray Sum Closest to Zero**  
+    - Find subarray whose sum is closest to zero.  
+    - **Input:** `[-3, 1, 1, -3, 5]`  
+    - **Output:** `[1,1]`  
+
+15. **Dutch National Flag Problem**  
+    - Sort an array of 0s, 1s, and 2s without sorting.  
+    - **Input:** `[2,0,2,1,1,0]`  
+    - **Output:** `[0,0,1,1,2,2]`  
+
+16. **Minimum Window Substring**  
+    - Find the smallest substring containing all characters of another string.  
+    - **Input:** `S = "ADOBECODEBANC", T = "ABC"`  
+    - **Output:** `"BANC"`  
+
+17. **Find Closest Pair in Two Sorted Arrays**  
+    - Find a pair (one from each array) whose sum is closest to a target.  
+    - **Input:** `arr1=[1,4,5], arr2=[10,20,30], target=17`  
+    - **Output:** `[5,10]`  
+
+18. **Longest Substring Without Repeating Characters**  
+    - **Input:** `"abcabcbb"`  
+    - **Output:** `3` (`"abc"`)  
+
+19. **Longest Mountain in Array**  
+    - Find the length of the longest mountain.  
+    - **Input:** `[2,1,4,7,3,2,5]`  
+    - **Output:** `5`  
+
+20. **Max Consecutive Ones II**  
+    - Find the maximum number of consecutive 1s by flipping at most one 0.  
+    - **Input:** `[1,0,1,1,0]`  
+    - **Output:** `4`  
+
+---
+
+## 🔴 **Hard (Complex Two Pointers Problems)**
+21. **Four Sum**  
+    - Find unique quadruplets summing to a target.  
+    - **Input:** `[1,0,-1,0,-2,2], target=0`  
+    - **Output:** `[[-2,-1,1,2], [-2,0,0,2], [-1,0,0,1]]`  
+
+22. **Sliding Window Maximum**  
+    - Find the max element in every sliding window of size `k`.  
+    - **Input:** `[1,3,-1,-3,5,3,6,7], k=3`  
+    - **Output:** `[3,3,5,5,6,7]`  
+
+23. **Shortest Subarray with Sum ≥ K**  
+    - Find the length of the shortest contiguous subarray with sum ≥ K.  
+    - **Input:** `[2,3,1,2,4,3], target=7`  
+    - **Output:** `2`  
+
+24. **Smallest Range Covering Elements from K Lists**  
+    - Find the smallest range that includes at least one number from each list.  
+    - **Input:** `[[4,10,15,24,26], [0,9,12,20], [5,18,22,30]]`  
+    - **Output:** `[20,24]`  
+
+25. **Maximum Frequency of an Element After K Increments**  
+    - Find the max frequency of an element after adding at most `k`.  
+    - **Input:** `[3,9,6,2], k=5`  
+    - **Output:** `3`  
+
+26. **Count Number of Nice Subarrays**  
+27. **Longest Repeating Character Replacement**  
+28. **Binary Subarrays With Sum**  
+29. **Find K Pairs With Smallest Sums**  
+30. **Longest Subarray with at Most K Distinct Integers**  
+
+---
