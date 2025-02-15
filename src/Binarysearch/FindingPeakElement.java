@@ -19,6 +19,10 @@ public class FindingPeakElement {
 
     //this is implemented using binary search
 
+    //Time complexity is O(logn)
+    //Space complexity is O(1)
+    
+
     public int findPeak(int arr[],int n)
     {
         int low = 0,high = n-1;
@@ -31,7 +35,10 @@ public class FindingPeakElement {
             {
                 return arr[mid];
             }
+            
 
+            //if mid element is not peak and its left element is greater than mid element then peak element will be in left side else peak element will be in right side
+            
             if(mid>0 && arr[mid-1]>arr[mid])
             {
                 high = mid-1;
