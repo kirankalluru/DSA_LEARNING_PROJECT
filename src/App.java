@@ -1,8 +1,8 @@
-import Binarysearch.FindingPeakElement;
+import TwoPointers.MaxsumofKElements;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        FindingPeakElement f = new FindingPeakElement();
-        f.Main();
+        MaxsumofKElements obj = new MaxsumofKElements();
+        obj.maxofKwindow();
     }
 }
